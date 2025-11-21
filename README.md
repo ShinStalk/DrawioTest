@@ -22,7 +22,7 @@ Ce document résume les ajouts, améliorations et correctifs intégrés au proje
 - **GameLoop**
   - Modification permettant d’enchaîner **directement** sur le niveau suivant.
 
-![Booster Mode Button](./new-features-buttons.png)
+![Booster Mode Button](./booster-mode-button.png)
 
 ---
 

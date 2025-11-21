@@ -22,6 +22,8 @@ Ce document résume les ajouts, améliorations et correctifs intégrés au proje
 - **GameLoop**
   - Modification permettant d’enchaîner **directement** sur le niveau suivant.
 
+![Booster Mode Button](./new-features-buttons.png)
+
 ---
 
 ## 2) Nouveaux power-ups : **IncreaseSpeed** & **RandomPaintBomb**
@@ -51,6 +53,7 @@ Ce document résume les ajouts, améliorations et correctifs intégrés au proje
 
 - Création d’une nouvelle vue de sélection de skin.
 - Intégration avec les éléments graphiques déjà présents dans le projet.
+- Remplacement du sélecteur de brush par un bouton ouvrant la nouvelle view de selection.
 - Mise en place d’un **pooling de cellules** basé sur le `GridLayoutGroup` pour optimiser l’affichage d’une longue liste.
   - Ajustement de la taille des cellules.
   - Limitation du nombre de cellules affichées simultanément.

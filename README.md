@@ -22,6 +22,8 @@ Ce document résume les ajouts, améliorations et correctifs intégrés au proje
 - **GameLoop**
   - Modification permettant d’enchaîner **directement** sur le niveau suivant.
 
+### Booster Mode Button
+
 ![Booster Mode Button](./booster-mode-button.png)
 
 ---
@@ -36,7 +38,7 @@ Ce document résume les ajouts, améliorations et correctifs intégrés au proje
 - **RandomPaintBomb**
   - Extraction / remontée dans `TerrainController` de la logique de spawn aléatoire déjà utilisée par les power-ups.
 
-### Aperçu (Power Ups)
+### Power Ups
 
 ![Power Ups](./power-ups.gif)
 
@@ -60,7 +62,7 @@ Ce document résume les ajouts, améliorations et correctifs intégrés au proje
   - **TODO**
     - Sous-classer `GridLayoutGroup` pour extraire la logique de pooling / réutilisation dans une classe dédiée.
 
-### Aperçu (Pooling UI)
+### Pooling UI (Mask désactivé pour voir la mécanique)
 
 ![Pooling](./pooling.gif)
 
@@ -79,7 +81,7 @@ Ce document résume les ajouts, améliorations et correctifs intégrés au proje
        - `Resources/Skins/Thumbnails`
     4. Ces thumbnails sont ensuite réutilisés dans la `SkinSelectionView`.
 
-### Aperçu (Thumbnail Generator)
+### Thumbnail Generator
 
 ![Thumbnail Generator](./thumbnail-generator.png)
 
